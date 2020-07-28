@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class IndexController {
 
-    @GetMapping(value = "/",produces = "application/jason")
+    @GetMapping(value = "/",produces = "application/json")
     public ResponseEntity init(){
 
         return new ResponseEntity("Olá mundo!", HttpStatus.OK);

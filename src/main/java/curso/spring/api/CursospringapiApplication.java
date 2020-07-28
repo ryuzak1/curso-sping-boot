@@ -11,12 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @SpringBootApplication
-@EntityScan(basePackages= "curso.spring.api.model")
-@ComponentScan(basePackages = "curso.*")
-@EnableJpaRepositories(basePackages = {"curso.spring.api.repository"})
-@EnableTransactionManagement
-@EnableWebMvc
-@RestController
+
 
 public class CursospringapiApplication {
 
